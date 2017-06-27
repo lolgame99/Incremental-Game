@@ -54,3 +54,12 @@ header {
     padding: 5px;
     float: left;
 }
+
+.buyCringeUpgradeM {
+    background-color: var(--darker-color1);
+    border: 1px solid black;
+    width: 330px;
+    margin: 10px 0;
+    padding: 5px;
+    float: left;
+}
