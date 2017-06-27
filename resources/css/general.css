@@ -20,6 +20,10 @@ html {
     background-color: var(--main-color);
 }
 
+h3 {
+    display: inline;
+}
+
 header {
     margin: 0 auto;
     text-align: center;
@@ -31,7 +35,7 @@ header {
 .spinnerM {
     background-color: var(--darker-color1);
     border: 1px solid black;
-    width: 300px;
+    width: 330px;
     margin: 10px 0;
     text-align: center;
     float: left;
@@ -45,7 +49,8 @@ header {
 .storageM {
     background-color: var(--darker-color1);
     border: 1px solid black;
-    width: 100px;
-    margin: 10px 0;
+    width: 330px;
+    margin: 10px;
+    padding: 5px;
     float: left;
 }
