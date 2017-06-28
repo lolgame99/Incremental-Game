@@ -55,11 +55,38 @@ header {
     float: left;
 }
 
-.buyCringeUpgradeM {
-    background-color: var(--darker-color1);
+.buyHeatUpgradeM {
     border: 1px solid black;
     width: 330px;
     margin: 10px 0;
     padding: 5px;
     float: left;
+}
+
+.buyCringeUpgradeM {
+    width: 330px;
+    margin: 0 10px;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.upgradeButton {
+    background-color: var(--darker-color1);
+    border: 1px solid black;
+    width: 330px;
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.counter {
+    float: right;
+    margin-right: 10px;
+}
+
+.small {
+    font-size: 12px;
 }
